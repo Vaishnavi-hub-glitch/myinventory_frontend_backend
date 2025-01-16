@@ -1,0 +1,219 @@
+.productlist {
+    width: 100%;
+    max-width: 1100px;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: lavenderblush; /* Changed to a clean white for a luxe feel */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Added subtle shadow */
+  }
+  
+  .product-list h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #2c3e50; /* Darker color for a more elegant look */
+  }
+  
+  table {
+    width: 98%;
+    border-collapse: collapse;
+    margin-left: 10px;
+  }
+  
+  th,
+  td {
+    border: 1px solid #e0e0e0; /* Lighter border for a softer look */
+    padding: 0.75rem;
+    text-align: left;
+    background-color: lavenderblush;
+  }
+  
+  th {
+    background: rgb(123, 32, 123); 
+    color: #ffffff; /* White text for contrast */
+    position: sticky;
+    z-index: 1;
+    top: 0;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f7f9fc; /* Light gray for even rows */
+  }
+  
+  thead tr td {
+    font-weight: bold;
+  }
+  
+  .searchFilter {
+    display: flex;
+    margin: 10px;
+    font-weight: 600;
+    font-size: medium;
+  }
+  
+  .searchFilter h4 {
+    margin-left: 7rem;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-top: 18px;
+    color: #34495e; /* Darker text for better readability */
+  }
+  
+  .searchFilter h3 {
+    font-weight: lighter;
+    font-size: 18px;
+    color: #34495e; /* Consistent color with h4 */
+  }
+  
+  .searchFilter input {
+    width: 140px;
+    height: 30px; /* Increased height for better usability */
+    border: 1px solid #bdc3c7; /* Soft border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 5px; /* Padding for input */
+  }
+  
+  .searchFilter select {
+    height: 34px; /* Increased height for better usability */
+    width: 150px;
+    text-align: center;
+    border: 1px solid #bdc3c7; /* Soft border */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .table {
+    height: 53vh;
+    overflow: auto;
+    margin-top: -10px;
+  }
+  
+  .pagination button {
+    background-color: transparent; /* Changed to transparent */
+    border: none;
+    color: #bdc3c7; /* Soft gray for disabled state */
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .pagination button:not(:disabled) {
+    color: #2980b9; /* Luxurious blue for active buttons */
+    background: none;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .pagination button:not(:disabled):hover {
+    color: #1abc9c; /* Change color on hover for interaction */
+  }
+
+
+  .editButton, .deleteButton {
+    padding: 8px 12px; /* Padding for better click area */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text for emphasis */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.editButton {
+    background-color: #3498db; /* Blue background for edit */
+    color: white; /* White text for contrast */
+    
+}
+
+.editButton:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+.deleteButton {
+    background-color: #e74c3c; /* Red background for delete */
+    color: white; /* White text for contrast */
+}
+
+.deleteButton:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+
+.saveButton, .cancelButton {
+    padding: 8px 12px; /* Padding for better click area */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text for emphasis */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.saveButton {
+    background-color: #28a745; /* Green background for save */
+    color: white; /* White text for contrast */
+}
+
+.saveButton:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.cancelButton {
+    background-color: #6c757d; /* Gray background for cancel */
+    color: white; /* White text for contrast */
+}
+
+.cancelButton:hover {
+    background-color: #5a6268; /* Darker gray on hover */
+}
+
+.h1{
+
+    text-align: center;
+    padding-right: 180px;
+    margin-top: 0rem;
+}
+
+.searchFilter {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.searchSection {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.searchInput {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-width: 200px;
+}
+
+.searchButton {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.searchButton:hover {
+    background-color: #45a049;
+}
+
+.filterSection {
+    display: flex;
+    align-items: center;
+}
+
+.filterSelect {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-width: 150px;
+}
+  

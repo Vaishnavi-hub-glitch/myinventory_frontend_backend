@@ -1,0 +1,48 @@
+.dashboard{
+    display: flex;
+    width: 95%;
+    /* border: 1px solid black; */
+    height: 75vh;
+    text-align: center;
+    align-self: center;
+    column-gap: 2rem;
+    margin-top: 2rem;
+   
+   
+}
+
+.header {
+    height: 30px;
+    width: 95%; /* Changed to 100% for proper alignment */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px; /* Added padding for top and left */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    background-color: rgb(123, 32, 123);
+}
+
+.logoutButton {
+    padding: 8px 20px;
+    background-color: lavenderblush;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+
+.ProductForm{
+    width: 40%;
+   
+    margin-left: 5px;
+}
+
+.ProductList{
+    width: 100%;
+    
+    padding-left: 60px;
+}

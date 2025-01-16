@@ -1,0 +1,60 @@
+.Addform h1 {
+    font-size: large;
+    color: #2c3e50; /* Darker color for a more elegant look */
+    text-align: center; /* Centered for better presentation */
+    margin-bottom: 20px; /* Added margin for spacing */
+    background-color: rgb(230, 177, 230);
+}
+
+form {
+    text-align: left;
+    padding: 19px;
+    background-color: lavenderblush; /* Clean white background for the form */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+form input {
+    width: 100%; /* Full width for better usability */
+    height: 40px; /* Increased height for better usability */
+    margin-bottom: 10px;
+    padding: 10px; /* Added padding for comfort */
+    border: 1px solid #bdc3c7; /* Soft border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Increased font size for readability */
+}
+
+form button {
+    margin-top: 20px;
+    width: 100%; /* Full width for button */
+    cursor: pointer;
+    background-color: rgb(123, 32, 123); /* Luxurious blue for the button */
+    color: #ffffff; /* White text for contrast */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Padding for button */
+    font-size: 16px; /* Increased font size for readability */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+form button:hover {
+    background-color: #2980b9; /* Darker blue on hover for interaction */
+}
+
+.Addform {
+    background: white;
+    height: 100%;
+    padding: 20px; /* Added padding for spacing */
+    border-radius: 8px; /* Rounded corners for the form container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.success {
+    color: green; /* Success message color */
+    margin-top: 10px; /* Spacing above success message */
+}
+
+.error {
+    color: red; /* Error message color */
+    margin-top: 10px; /* Spacing above error message */
+}
